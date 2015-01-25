@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Project Presentation</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Data Project Presentation">
+  <meta name="author" content="Klerisson Paixao">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="../libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="../libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="../libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="../libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="../libraries/frameworks/io2012/js/slides" 
+    src="../libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Data Project Presentation</h1>
+    <h2></h2>
+    <p>Klerisson Paixao<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Shiny Presentation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This R Markdown presentation about the interactive NOOA data set.
+Goal of this report is to idenify severe weather events of the highest impact on both US population and US economy based on the information retrieved from U.S. National Oceanic and Atmospheric Administration&#39;s (NOAA) storm database.</p>
+
+<h2>Data set</h2>
+
+<p>Database version used for this report contain entries for years 1950-2011. 
+See following the five firts rows:</p>
+
+<pre><code class="r">head(dt, 5)
+</code></pre>
+
+<pre><code>##    YEAR   STATE  EVTYPE COUNT FATALITIES INJURIES PROPDMG CROPDMG
+## 1: 1950 alabama tornado     2          0       15 0.02750       0
+## 2: 1951 alabama tornado     5          0       13 0.03500       0
+## 3: 1952 alabama tornado    13          6      116 5.45250       0
+## 4: 1953 alabama tornado    22         16      248 3.07000       0
+## 5: 1954 alabama tornado    10          0       36 0.60753       0
+</code></pre>
+
+<h2>NOOA Events plot</h2>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;inputPanel&quot;
+</code></pre>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;reactiveValues&quot;
+</code></pre>
+
+<pre><code>## Error in values$evtypes &lt;- evtypes: object &#39;values&#39; not found
+</code></pre>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;reactive&quot;
+</code></pre>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;renderPlot&quot;
+</code></pre>
+
+<h2>Results</h2>
+
+<p>Most of the observed differences can be attributed to the differences in the size of the samples. Nevertheless I was able to identift four types of events which had both high normalized average and maximum impact and should be considered highly harmful:</p>
+
+<ul>
+<li>Surge</li>
+<li>Heat / Heat Wave</li>
+<li>Tropical storm</li>
+<li>Tsunami</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Shiny Presentation'>
+         1
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="../libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
